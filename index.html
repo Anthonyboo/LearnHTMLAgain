@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Learn HTML Again</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="../../HTMLAgain/css/style.css">
+    <script src="../../HTMLAgain/js/script.js"></script>
 </head>
 <body>
-    <p>Hello World!</p>
+    <h1 name='top'>Hello World!</h1>
+	<p><b>Теперь</b> я умею <i>добавлять</i> абзацы.</p>
+	<p>Между ними обычно образуются расстояния,
+		<br>но я в силах это остановить.</p>
+	<!--ВЫРАВНИВАНИЕ-->
+	<p align='center'>Можно выровнять текст по центру.</p>
+	<p align='right'>По правую сторону.</p>
+	<p align='justify'>Или растянуть по ширине, если для этого достаточно символов. <strong>Как например тут.</strong> <em>Как например тут.</em> <sub>Как например тут.</sub> <sup>Как например тут.</sup>  Хотя не заметно.&#169</p>
+	<!--ССЫЛКИ-->
+	<p><a href='https://alittlegraalian.files.wordpress.com/2015/07/treasure-map-18.png?w=374&h=311'>Абсолютная ссылка.</a></p>
+	<p><a href='page2.html'>Относительная ссылка</a></p>
+	<!--(../) - это значит выйти на уровень папки выше -->
+	<!--(fplder/file.html) - на случай если искомый файл в папке -->
+	<p>Полезные атрибуты ссылок:<a target href='page2.html'> в этом окне</a> или <a target='_blank' href='page2.html'> новом окне</a>.
+	<p>А можно например <a href='' title='Подсказка вот в таком удобном окошке!'>добавить подсказку</a> к ссылке.</p>
+	<p>А можно добавить ссылку на <a href="mailto:nastolportal@gmail.com?subject=Я клилнул на товю ссылку">адреc электронной почты</a></p>
+	<p>Также можно создать <a href='#top'>якорь</a>. К любому атрибуту "name", например, он может вести на <a href='page2.html#top_page2'>другую страницу</a>.</p>
 </body>
 </html>
