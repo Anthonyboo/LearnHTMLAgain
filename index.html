@@ -56,7 +56,25 @@
 		<caption align='bottom'>Кстати у таблицы может быть заголовок.</caption>
 	</table>
 	<p>Если у таблицы задан атрибут <b>align</b>, то текст, как по волшебству, начинает обтекать таблицу с противоположных сторон.</p>
-	
-	
+	<canvas border='3px' width='100' height='86' id='a'></canvas>
+	<h2>Пришло время создать форму:</h2>
+	<form name='test' method="post" action="">
+		<p>Введите ваше имя:</p>
+		<input type="text" size="21">
+		<p>Введите пароль:</p>
+		<input type="password" size="21">
+		<p>Какие языки вы хотите изучить?</p>
+		<input type="checkbox" > HLML<br>
+		<input type="checkbox" > CSS<br>
+		<input type="checkbox"> JS<br>
+		<p>С какого языка вы хотите начать?</p>
+		<input type="radio" name="lang" value="html"> HLML<br>
+		<input type="radio" name="lang" value="css"> CSS<br>
+		<input type="radio" name="lang" value="js"> JS<br>
+		<p>Прокомментируйте создавшуюся ситуацию:</p>
+		<textarea type="comment" cols='40' rows='3'></textarea>
+		<p><input type='submit' value="Отправить">
+			<input type='reset' value="Очистить"></p>
+	</form>
 </body>
 </html>
